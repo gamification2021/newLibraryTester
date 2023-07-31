@@ -10,6 +10,12 @@ const ParentApp = (props) => {
             }} style={{ alignItems: 'center', backgroundColor: 'dodgerblue', borderRadius: 5, marginTop: 50, padding: 10, width: '50%' }}>
                 <Text style={{ color: 'white', fontSize: 20 }}>Load Library</Text>
             </TouchableOpacity>
+
+            <TouchableOpacity onPress={() => {
+                props.navigation.navigate("jokes");
+            }} style={{ alignItems: 'center', backgroundColor: 'dodgerblue', borderRadius: 5, marginTop: 50, padding: 10, width: '50%' }}>
+                <Text style={{ color: 'white', fontSize: 20 }}>Load Jokes</Text>
+            </TouchableOpacity>
         </View>
     )
 }

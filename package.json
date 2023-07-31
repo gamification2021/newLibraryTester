@@ -17,7 +17,7 @@
     "react-native": "0.71.8",
     "react-native-reanimated": "~2.14.4",
     "react-native-svg": "13.4.0",
-    "rn-test-library-sixdee": "^2.2.5",
+    "rn-test-library-sixdee": "^2.3.2",
     "svg-path-properties": "^1.2.0",
     "victory-native": "^36.6.11"
   },
