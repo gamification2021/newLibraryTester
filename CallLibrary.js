@@ -5,7 +5,11 @@ import { NavPath } from 'rn-test-library-sixdee'
 
 const CallLibrary = () => {
     return (
-        <NavPath />
+        <NavPath
+            callBack={(gift) => {
+                console.log('This is printed from the parent app using callback ==> Game finished,, received ' + gift);
+            }}
+        />
         // <FullScreenTest />
         // <View />
     )
